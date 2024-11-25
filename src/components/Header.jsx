@@ -16,9 +16,14 @@ const Header = () => {
           </div>
         </div>
         <div className="bg-black w-[50%] flex">
-          <div className="bg-white rounded-full m-auto">
-            <CircleUser fill='#4691F2' stroke='white' />
-          </div>
+
+          <div className="m-auto flex">
+          <CircleUser fill='#4691F2' stroke='white' />
+          <h3 className="text-white m-auto ml-0">
+              <a href="#">Login/</a>
+              <a href="#">Register</a>
+            </h3>
+          </div>         
           <div className="bg-white rounded-full m-auto">
             <Facebook fill='#4691F2' stroke='white' />
           </div>
@@ -35,7 +40,26 @@ const Header = () => {
         
         
       </div>
-      <div className="h-[60%] bg-white"></div>
+      <div className="h-[60%] bg-white mx-5vw flex">
+        <div className='w-[30vw] m-auto'>
+          lo<span className="text-[#4691F2]">go</span>
+        </div>
+        <div className='w-[30vw] flex m-auto'>
+          <ul className="flex gap-3">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div className="w-[30vw] m-auto">
+          <button className="bg-[#4691F2] flex text-white rounded-3xl px-3 py-2">
+            Contact Us
+            <PhoneCall fill='white' stroke="#4691F2" className='ml-1'/>
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
