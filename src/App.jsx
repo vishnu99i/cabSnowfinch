@@ -1,4 +1,5 @@
 import './App.css';
+import Bookingform from './components/Bookingform';
 import Header from './components/Header';
 import Intro from './components/Intro';
 
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Header />
         <Intro />
+        <Bookingform />
       </div>
   )
 }
