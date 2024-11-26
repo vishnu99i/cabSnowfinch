@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Bannerimage from "../assets/Bannerimage.png"
 
 const Intro = () => {

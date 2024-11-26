@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import footer1 from "../assets/footer1.jpeg";
 import footer2 from "../assets/footer2.jpeg";
 import footer3 from "../assets/footer3.jpeg";

@@ -1,25 +1,25 @@
-import React from 'react';
+// import React from 'react';
 import tiago from "../assets/tiago.png";
 import arrow from "../assets/arrow.png";
 
 const Carbooking = () => {
   return (
-    <div>
-      <h3 className="text-[#4691F2]">Best Places For Your Party</h3>
-      <h1>Let&#39;s Check Available vehicle</h1>
+    <div className="mt-20">
+      <h3 className="text-[#4691F2] text-center text-xl font-bold hover:scale-105 duation-300 ease-in-out">Best Places For Your Party</h3>
+      <h1 className="text-center text-3xl font-bold hover:scale-105 duration-300 ease-in-out">Let&#39;s Check Available vehicle</h1>
 
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 gap-2 mx-20 mt-7">
 
-         <div>
+         <div className="border-4 bg-gradient-to-r from-blue-100 hover:scale-105 duration-300 ease-in-out">
             <img src={tiago} alt="" />
-            <table>
+            <table className="mx-5 table-auto w-full">
                <thead>
                   <tr>
-                     <th>REGULAR</th>
+                     <th className="text-left">REGULAR</th>
                      <th></th>
                   </tr>
                   <tr>
-                     <th>TATA TIAGO</th>
+                     <th className="text-left">TATA TIAGO</th>
                      <th>₹ 399/km</th>
                   </tr>
                </thead>
@@ -50,22 +50,22 @@ const Carbooking = () => {
                   </tr>
                </tbody>
             </table>
-            <button className="flex text-white bg-[#4691F2] px-3 mpy-2 rounded-full">
+            <button className="flex text-white bg-[#4691F2] px-3 py-2 my-3 ml-5 rounded-full hover:scale-105 duration-300 ease-in-out w-[90%]">
                Read More
                <img src={arrow} alt="arrow" />
             </button>
          </div>
 
-         <div>
+         <div className="border-4 bg-gradient-to-r from-blue-100 hover:scale-105 duration-300 ease-in-out">
             <img src={tiago} alt="" />
-            <table>
+            <table className="mx-5 table-auto w-full">
                <thead>
                   <tr>
-                     <th>REGULAR</th>
+                     <th className="text-left">REGULAR</th>
                      <th></th>
                   </tr>
                   <tr>
-                     <th>TATA TIAGO</th>
+                     <th className="text-left">TATA TIAGO</th>
                      <th>₹ 399/km</th>
                   </tr>
                </thead>
@@ -96,22 +96,22 @@ const Carbooking = () => {
                   </tr>
                </tbody>
             </table>
-            <button className="flex text-white bg-[#4691F2] px-3 mpy-2 rounded-full">
+            <button className="flex text-white bg-[#4691F2] px-3 py-2 my-3 ml-5 rounded-full hover:scale-105 duration-300 ease-in-out w-[90%]">
                Read More
                <img src={arrow} alt="arrow" />
             </button>
          </div>
 
-         <div>
+         <div className="border-4 bg-gradient-to-r from-blue-100 hover:scale-105 duration-300 ease-in-out">
             <img src={tiago} alt="" />
-            <table>
+            <table className="mx-5 table-auto w-full">
                <thead>
                   <tr>
-                     <th>REGULAR</th>
+                     <th className="text-left">REGULAR</th>
                      <th></th>
                   </tr>
                   <tr>
-                     <th>TATA TIAGO</th>
+                     <th className="text-left">TATA TIAGO</th>
                      <th>₹ 399/km</th>
                   </tr>
                </thead>
@@ -142,7 +142,7 @@ const Carbooking = () => {
                   </tr>
                </tbody>
             </table>
-            <button className="flex text-white bg-[#4691F2] px-3 mpy-2 rounded-full">
+            <button className="flex text-white bg-[#4691F2] px-3 py-2 my-3 ml-5 rounded-full hover:scale-105 duration-300 ease-in-out w-[90%]">
                Read More
                <img src={arrow} alt="arrow" />
             </button>
