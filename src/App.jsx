@@ -8,6 +8,7 @@ import Hotelplace from './components/Hotelplace';
 import Hotelbooking from './components/Hotelbooking';
 import Intro from './components/Intro';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <CTA />
         <Hotelplace />
         <Testimonials />
+        <Footer />
       </div>
   )
 }
