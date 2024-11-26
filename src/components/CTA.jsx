@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import newarrow from "../assets/newarrow.png";
 
 const CTA = () => {

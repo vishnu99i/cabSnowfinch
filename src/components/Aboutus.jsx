@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import car from "../assets/car.png";
 import sendicon from "../assets/sendicon.png";
 import arrow from "../assets/arrow.png";
