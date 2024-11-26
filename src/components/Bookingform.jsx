@@ -3,11 +3,11 @@ import arrow from "../assets/arrow.png";
 
 const Bookingform = () => {
   return (
-    <div className='h-[15vh] flex w-[80vh]'>
-      <input type="text" placeholder='Pick up location'/>
-      <input type="text" placeholder='Dropoff location'/>
-      <input type="text" placeholder='Date & Time'/>
-      <input type="text" placeholder='no of passengers'/>
+    <div className='h-[15vh] flex justify-between mx-20 border-2 border-slate-500 p-5 rounded-3xl mb-32'>
+      <button className='hover:scale-110 duration-300 ease-in-out border-2 border-slate-300 rounded-3xl px-3'>Pick up location</button>
+      <button className='hover:scale-110 duration-300 ease-in-out border-2 border-slate-300 rounded-3xl px-3'>Dropoff location</button>
+      <button className='hover:scale-110 duration-300 ease-in-out border-2 border-slate-300 rounded-3xl px-3'>Date & Time</button>
+      <button className='hover:scale-110 duration-300 ease-in-out border-2 border-slate-300 rounded-3xl px-3'>no of passengers</button>
       <button className="bg-[#4691F2] flex text-white p-2 rounded-full">
          Search
          <img src={arrow} alt="arrow" className='bg-[#4691F2]' />
