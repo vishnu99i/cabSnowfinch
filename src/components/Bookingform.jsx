@@ -8,9 +8,9 @@ const Bookingform = () => {
       <button className='hover:scale-110 duration-300 ease-in-out border-2 border-slate-300 rounded-3xl px-3'>Dropoff location</button>
       <button className='hover:scale-110 duration-300 ease-in-out border-2 border-slate-300 rounded-3xl px-3'>Date & Time</button>
       <button className='hover:scale-110 duration-300 ease-in-out border-2 border-slate-300 rounded-3xl px-3'>no of passengers</button>
-      <button className="bg-[#4691F2] flex text-white p-2 rounded-full">
+      <button className="bg-[#4691F2] flex text-white px-3 py-2 pt-2 rounded-full">
          Search
-         <img src={arrow} alt="arrow" className='bg-[#4691F2]' />
+         <img src={arrow} alt="arrow" />
       </button>
     </div>
   )

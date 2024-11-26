@@ -18,22 +18,22 @@ const Header = () => {
         <div className="bg-black w-[50%] flex items-center">
 
           <div className="m-auto flex">
-          <CircleUser fill='#4691F2' stroke='white' className='hover:scale-105 duration-300 ease-in-out' />
+          <CircleUser fill='#4691F2' stroke='white' className='hover:scale-105 duration-300 ease-in-out mx-1' />
           <h3 className="text-white m-auto ml-0">
               <a href="#" className='hover:scale-105 duration-300 ease-in-out'>Login/</a>
               <a href="#" className='hover:scale-105 duration-300 ease-in-out'>Register</a>
             </h3>
           </div>         
-          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out">
+          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out mx-1">
             <Facebook fill='#4691F2' stroke='white' />
           </div>
-          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out">
+          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out mx-1">
             <Twitter fill='#4691F2' stroke='white' />
           </div>
-          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out">
+          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out mx-1">
             <Youtube fill='#4691F2' stroke='white' />
           </div>
-          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out">
+          <div className="bg-white rounded-full m-auto hover:scale-110 duration-300 ease-in-out mx-1">
             <Instagram fill='#4691F2' stroke='white' />
           </div>
         </div>
@@ -53,12 +53,12 @@ const Header = () => {
             <li><a href="#" className='hover:scale-105 duration-300 ease-in-out hover:text-[#4691F2]'>Blog</a></li>
           </ul>
         </div>
-        <div className="w-[30vw] m-auto">
-          <button className="bg-[#4691F2] flex text-white rounded-3xl px-3 py-2 hover:scale-105 duration-300 ease-in-out">
-            Contact Us
-            <PhoneCall fill='white' stroke="#4691F2" className='ml-1'/>
-          </button>
-        </div>
+  <div className="w-[30vw] my-auto flex justify-center align-middle">
+  <button className="bg-[#4691F2] flex text-white rounded-3xl px-3 py-2 hover:scale-105 ease-in-out animate-bounce duration-600">
+    Contact Us
+    <PhoneCall fill='white' stroke="#4691F2" className='ml-1'/>
+  </button>
+</div>
       </div>
     </div>
   )
