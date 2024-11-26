@@ -50,3 +50,24 @@
   background-image: url(assets/gradient.png);
   background-size: cover;
 }
+
+.cta{
+  background-image: url(assets/cta.png);
+  background-size: contain;
+}
+.munnar{
+  background-image: url(assets/munnar.png);
+  background-size: cover;
+}
+.mysore{
+  background-image: url(assets/mysore.png);
+  background-size: cover;
+}
+.tajmahal{
+  background-image: url(assets/tajmahal.jpeg);
+  background-size: cover;
+}
+.kochi{
+  background-image: url(assets/kochi.jpeg);
+  background-size: cover;
+}
